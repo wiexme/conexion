@@ -13,7 +13,7 @@ import java.sql.DriverManager;
  * @author alumno04
  */
 public class conexion {
-    public Connection conectar(){
+    public static Connection conectar(){
         Connection connection =  null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
